@@ -1,0 +1,9 @@
+# 自定义属性，可以通过 @Value(“${属性名}”) 读取
+offcn_ip: 1.1.1.1
+offcn_port: 9999
+userbody:
+  name: 麒麟
+  password: 123456
+  birthday: 1997.03.02
+  mobile: 1234567890
+  address: 北京市

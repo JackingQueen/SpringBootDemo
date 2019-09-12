@@ -1,0 +1,7 @@
+# 自定义静态文件路径配置
+web.upload-path:
+  D:/pic/
+spring.mvc.static-path-pattern:
+  /**
+spring.resources.static-locations:
+  classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}

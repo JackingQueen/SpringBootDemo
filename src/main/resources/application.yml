@@ -1,0 +1,7 @@
+# spring.profiles.active=xxx  来指定加载不同环境的配置,如果不指定，则默认只使用application.yml属性文件，不会加载其他的profiles的配置。
+spring:
+  profiles:
+    include: dev,jdbc,path,data
+
+
+
